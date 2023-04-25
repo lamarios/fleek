@@ -23,6 +23,7 @@ packages:
     - s-tui
     - stress
     - neofetch
+    - helm
 paths:
     - $HOME/bin
     - $HOME/.local/bin
