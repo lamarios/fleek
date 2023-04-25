@@ -1,6 +1,6 @@
 { pkgs, misc, ... }: {
-    home.username = "xendit";
-    home.homeDirectory = "/home/xendit";
+    home.username = "gz";
+    home.homeDirectory = "/home/gz";
     programs.git = {
         enable = true;
         aliases = {
@@ -8,8 +8,8 @@
             graph = "log --decorate --oneline --graph";
             add-nowhitespace = "!git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -";
         };
-        userName = "xendit";
-        userEmail = "paulfauchon@xendit.co";
+        userName = "gz";
+        userEmail = "paul@fauchon.dev";
         extraConfig = {
             feature.manyFiles = true;
             init.defaultBranch = "main";

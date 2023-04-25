@@ -34,6 +34,10 @@ systems:
       hostname: yoga7
       os: linux
       username: xendit
+    - arch: x86_64
+      hostname: yoga7
+      os: linux
+      username: gz
 unfree: true
 users:
     - email: paulfauchon@xendit.co
@@ -41,3 +45,8 @@ users:
       ssh_private_key_file: ~/.ssh/id_rsa
       ssh_public_key_file: ~/.ssh/id_rsa.pub
       username: xendit
+    - email: paul@fauchon.dev
+      name: gz
+      ssh_private_key_file: ~/.ssh/id_rsa
+      ssh_public_key_file: ~/.ssh/id_rsa.pub
+      username: gz
