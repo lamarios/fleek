@@ -2,7 +2,7 @@ aliases:
     chamber-iluma: aws-vault exec iluma -- chamber
     chamber-iluma-staging: aws-vault exec iluma-staging -- chamber
     fleeks: cd ~/.local/share/fleek
-bling: low
+bling: high
 ejected: false
 flakedir: .local/share/fleek
 git:
