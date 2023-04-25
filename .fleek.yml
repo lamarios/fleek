@@ -1,7 +1,7 @@
 aliases:
-    fleeks: cd ~/.local/share/fleek
     chamber-iluma: aws-vault exec iluma -- chamber
     chamber-iluma-staging: aws-vault exec iluma-staging -- chamber
+    fleeks: cd ~/.local/share/fleek
 bling: low
 ejected: false
 flakedir: .local/share/fleek
@@ -13,7 +13,6 @@ git:
 min_version: 0.8.4
 name: Fleek Configuration
 packages:
-    - helix
     - k9s
     - kubectl
     - aws-vault

@@ -18,7 +18,6 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.helix
     pkgs.k9s
     pkgs.kubectl
     pkgs.aws-vault
