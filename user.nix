@@ -8,5 +8,5 @@
 
   programs.zsh.sessionVariables = {
    ZSH_DISABLE_COMPFIX="true";
-  } 
+  }; 
 }
