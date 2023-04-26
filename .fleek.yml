@@ -39,6 +39,10 @@ systems:
       hostname: yoga7
       os: linux
       username: gz
+    - arch: x86_64
+      hostname: office-pc
+      os: linux
+      username: gz
 unfree: true
 users:
     - email: paulfauchon@xendit.co
