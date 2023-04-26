@@ -29,6 +29,7 @@ paths:
     - $HOME/.local/bin
 programs:
     - dircolors
+    - zsh.oh-my-zsh
 shell: zsh
 systems:
     - arch: x86_64
