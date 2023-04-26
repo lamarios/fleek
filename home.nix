@@ -32,6 +32,7 @@
     pkgs.gnomeExtensions.transparent-top-bar-adjustable-transparency
     pkgs.gnomeExtensions.tailscale-status
     pkgs.gnomeExtensions.gtile
+    pkgs.gnomeExtensions.power-profile-switcher
     # Fleek Bling
     pkgs.git
     pkgs.htop
