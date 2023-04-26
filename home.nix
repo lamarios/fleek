@@ -36,6 +36,7 @@
     pkgs.gnomeExtensions.ideapad-controls
     pkgs.gnomeExtensions.screen-rotate
     pkgs.gnomeExtensions.clipboard-indicator
+    pkgs.noisetorch
     # Fleek Bling
     pkgs.git
     pkgs.htop
