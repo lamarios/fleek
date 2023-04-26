@@ -29,6 +29,7 @@ packages:
     - gnomeExtensions.gtile
     - gnomeExtensions.power-profile-switcher
     - gnomeExtensions.ideapad-controls
+    - gnomeExtensions.screen-rotate
 paths:
     - $HOME/bin
     - $HOME/.local/bin
