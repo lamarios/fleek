@@ -28,6 +28,7 @@ packages:
     - gnomeExtensions.tailscale-status
     - gnomeExtensions.gtile
     - gnomeExtensions.power-profile-switcher
+    - gnomeExtensions.ideapad-controls
 paths:
     - $HOME/bin
     - $HOME/.local/bin

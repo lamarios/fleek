@@ -33,6 +33,7 @@
     pkgs.gnomeExtensions.tailscale-status
     pkgs.gnomeExtensions.gtile
     pkgs.gnomeExtensions.power-profile-switcher
+    pkgs.gnomeExtensions.ideapad-controls
     # Fleek Bling
     pkgs.git
     pkgs.htop
