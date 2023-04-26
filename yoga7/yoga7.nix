@@ -1,6 +1,6 @@
 { pkgs, misc, ... }: {
     home.username = "gz";
-    home.homeDirectory = "/home/xendit";
+    home.homeDirectory = "/home/gz";
     programs.git = {
         enable = true;
         aliases = {
