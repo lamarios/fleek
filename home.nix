@@ -35,6 +35,7 @@
     pkgs.gnomeExtensions.power-profile-switcher
     pkgs.gnomeExtensions.ideapad-controls
     pkgs.gnomeExtensions.screen-rotate
+    pkgs.gnomeExtensions.clipboard-indicator
     # Fleek Bling
     pkgs.git
     pkgs.htop

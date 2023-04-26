@@ -30,6 +30,7 @@ packages:
     - gnomeExtensions.power-profile-switcher
     - gnomeExtensions.ideapad-controls
     - gnomeExtensions.screen-rotate
+    - gnomeExtensions.clipboard-indicator
 paths:
     - $HOME/bin
     - $HOME/.local/bin
