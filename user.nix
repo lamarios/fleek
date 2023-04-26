@@ -4,7 +4,6 @@
   # home manager options available here: https://nix-community.github.io/home-manager/options.html
   
   programs.zsh.enableAutosuggestions=true;
-  programs.zsh.oh-my-zsh.enable=true;
 
   programs.zsh.sessionVariables = {
    ZSH_DISABLE_COMPFIX="true";
