@@ -28,7 +28,6 @@
     pkgs.s-tui
     pkgs.stress
     pkgs.neofetch
-    pkgs.helm
     # Fleek Bling
     pkgs.git
     pkgs.htop
