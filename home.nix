@@ -31,6 +31,7 @@
     pkgs.helm
     pkgs.gnomeExtensions.transparent-top-bar-adjustable-transparency
     pkgs.gnomeExtensions.tailscale-status
+    pkgs.gnomeExtensions.gtile
     # Fleek Bling
     pkgs.git
     pkgs.htop
