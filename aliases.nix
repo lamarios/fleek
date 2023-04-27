@@ -6,5 +6,7 @@
     chamber-iluma-staging = "aws-vault exec iluma-staging -- chamber";
     
     fleeks = "cd ~/.local/share/fleek";
+    
+    nx = "NIXPKGS_ALLOW_UNFREE=1 nix-shell -p";
     };
 }
