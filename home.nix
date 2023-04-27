@@ -1,4 +1,5 @@
 { config, pkgs, misc, ... }: {
+  # DO NOT EDIT: This file is managed by fleek. Manual changes will be overwritten.
   nixpkgs = {
     # Configure your nixpkgs instance
     config = {
@@ -29,6 +30,14 @@
     pkgs.stress
     pkgs.neofetch
     pkgs.helm
+    pkgs.gnomeExtensions.transparent-top-bar-adjustable-transparency
+    pkgs.gnomeExtensions.tailscale-status
+    pkgs.gnomeExtensions.gtile
+    pkgs.gnomeExtensions.power-profile-switcher
+    pkgs.gnomeExtensions.ideapad-controls
+    pkgs.gnomeExtensions.screen-rotate
+    pkgs.gnomeExtensions.clipboard-indicator
+    pkgs.noisetorch
     # Fleek Bling
     pkgs.git
     pkgs.htop
