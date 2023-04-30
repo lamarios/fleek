@@ -2,7 +2,7 @@ aliases:
     chamber-iluma: aws-vault exec iluma -- chamber
     chamber-iluma-staging: aws-vault exec iluma-staging -- chamber
     fleeks: cd ~/.local/share/fleek
-    nx: NIXPKGS_ALLOW_UNFREE=1 nix-shell -p 
+    nx: NIXPKGS_ALLOW_UNFREE=1 nix-shell -p
 bling: low
 ejected: false
 flakedir: .local/share/fleek
@@ -33,6 +33,7 @@ packages:
     - gnomeExtensions.screen-rotate
     - gnomeExtensions.clipboard-indicator
     - noisetorch
+    - jetbrains.idea-ultimate
 paths:
     - $HOME/bin
     - $HOME/.local/bin
