@@ -1,5 +1,4 @@
 { config, pkgs, misc, ... }: {
-  # DO NOT EDIT: This file is managed by fleek. Manual changes will be overwritten.
   nixpkgs = {
     # Configure your nixpkgs instance
     config = {
@@ -38,7 +37,6 @@
     pkgs.gnomeExtensions.screen-rotate
     pkgs.gnomeExtensions.clipboard-indicator
     pkgs.noisetorch
-    pkgs.jetbrains.idea-ultimate
     # Fleek Bling
     pkgs.git
     pkgs.htop
