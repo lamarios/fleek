@@ -38,7 +38,6 @@
     pkgs.gnomeExtensions.screen-rotate
     pkgs.gnomeExtensions.clipboard-indicator
     pkgs.noisetorch
-    pkgs.jetbrains.idea-ultimate
     # Fleek Bling
     pkgs.git
     pkgs.htop
