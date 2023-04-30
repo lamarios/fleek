@@ -34,7 +34,6 @@ packages:
     - gnomeExtensions.clipboard-indicator
     - noisetorch
     - jetbrains.idea-ultimate
-    - postman
 paths:
     - $HOME/bin
     - $HOME/.local/bin

@@ -39,7 +39,6 @@
     pkgs.gnomeExtensions.clipboard-indicator
     pkgs.noisetorch
     pkgs.jetbrains.idea-ultimate
-    pkgs.postman
     # Fleek Bling
     pkgs.git
     pkgs.htop
