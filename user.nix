@@ -7,5 +7,18 @@
 
   programs.zsh.sessionVariables = {
    ZSH_DISABLE_COMPFIX="true";
+  };
+
+  xdg.userDirs = {
+   enable = true;
+   createDirectories = true;
+   desktop = ${config.home.homeDirectory};
+   download = ${config.home.homeDirectory}/dl;
+   documents = ${config.home.homeDirectory}/docs;
+   music = ${config.home.homeDirectory}/mzk;
+   pictures = ${config.home.homeDirectory}/pix;
+   publicShare = ${config.home.homeDirectory}/pub;
+   templates = ${config.home.homeDirectory}/tpl;
+   videos = ${config.home.homeDirectory};
   }; 
 }
