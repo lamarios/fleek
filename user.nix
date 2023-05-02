@@ -9,11 +9,10 @@
    ZSH_DISABLE_COMPFIX="true";
   };
   
-  home.homeDirectory = "/var/home/${config.home.username}";
 
   xdg.userDirs = {
    enable = true;
-   createDirectories = true;
+   createDirectories = false;
    desktop = "${config.home.homeDirectory}";
    download = "${config.home.homeDirectory}/dl";
    documents = "${config.home.homeDirectory}/doc";
