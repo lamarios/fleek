@@ -9,7 +9,7 @@
    ZSH_DISABLE_COMPFIX="true";
   };
   
-  home.homeDirectory = "/var/home/${home.username}";
+  home.homeDirectory = "/var/home/${config.home.username}";
 
   xdg.userDirs = {
    enable = true;
