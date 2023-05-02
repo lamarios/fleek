@@ -8,6 +8,8 @@
   programs.zsh.sessionVariables = {
    ZSH_DISABLE_COMPFIX="true";
   };
+  
+  home.homeDirectory = "/var/home/${home.username}";
 
   xdg.userDirs = {
    enable = true;
