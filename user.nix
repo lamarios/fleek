@@ -20,6 +20,6 @@
    pictures = "${config.home.homeDirectory}/pix";
    publicShare = "${config.home.homeDirectory}/pub";
    templates = "${config.home.homeDirectory}/tpl";
-   videos = "${config.home.homeDirectory}";
+   videos = "${config.home.homeDirectory}/pix/vid";
   }; 
 }
