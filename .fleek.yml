@@ -39,6 +39,7 @@ packages:
     - android-studio
     - android-tools
     - bundletool
+    - bmon
 paths:
     - $HOME/bin
     - $HOME/.local/bin

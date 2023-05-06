@@ -43,6 +43,7 @@
     pkgs.android-studio
     pkgs.android-tools
     pkgs.bundletool
+    pkgs.bmon
     # Fleek Bling
     pkgs.git
     pkgs.htop
