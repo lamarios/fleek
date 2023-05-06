@@ -37,6 +37,7 @@ packages:
     - jetbrains.idea-ultimate
     - postman
     - android-studio
+    - android-tools
 paths:
     - $HOME/bin
     - $HOME/.local/bin

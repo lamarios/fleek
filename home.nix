@@ -41,6 +41,7 @@
     pkgs.jetbrains.idea-ultimate
     pkgs.postman
     pkgs.android-studio
+    pkgs.android-tools
     # Fleek Bling
     pkgs.git
     pkgs.htop
