@@ -13,6 +13,7 @@ git:
     enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
+overlays: {}
 packages:
     - k9s
     - kubectl
@@ -35,6 +36,7 @@ packages:
     - noisetorch
     - jetbrains.idea-ultimate
     - postman
+    - android-studio
 paths:
     - $HOME/bin
     - $HOME/.local/bin

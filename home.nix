@@ -40,6 +40,7 @@
     pkgs.noisetorch
     pkgs.jetbrains.idea-ultimate
     pkgs.postman
+    pkgs.android-studio
     # Fleek Bling
     pkgs.git
     pkgs.htop
