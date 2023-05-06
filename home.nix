@@ -42,6 +42,7 @@
     pkgs.postman
     pkgs.android-studio
     pkgs.android-tools
+    pkgs.bundletool
     # Fleek Bling
     pkgs.git
     pkgs.htop
