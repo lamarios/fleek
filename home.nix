@@ -44,6 +44,7 @@
     pkgs.android-tools
     pkgs.bundletool
     pkgs.btop
+    pkgs.nodejs-16_x
     # Fleek Bling
     pkgs.git
     pkgs.htop

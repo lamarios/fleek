@@ -40,6 +40,7 @@ packages:
     - android-tools
     - bundletool
     - btop
+    - nodejs-16_x
 paths:
     - $HOME/bin
     - $HOME/.local/bin
