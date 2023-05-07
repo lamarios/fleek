@@ -39,6 +39,8 @@ packages:
     - android-studio
     - android-tools
     - bundletool
+    - btop
+    - node16_x
 paths:
     - $HOME/bin
     - $HOME/.local/bin
