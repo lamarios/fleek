@@ -13,13 +13,13 @@
   xdg.userDirs = {
    enable = true;
    createDirectories = false;
-   desktop = "${config.home.homeDirectory}";
-   download = "${config.home.homeDirectory}/dl";
-   documents = "${config.home.homeDirectory}/doc";
-   music = "${config.home.homeDirectory}/doc/mzk";
-   pictures = "${config.home.homeDirectory}/pix";
-   publicShare = "${config.home.homeDirectory}/pub";
-   templates = "${config.home.homeDirectory}/tpl";
-   videos = "${config.home.homeDirectory}/pix/vid";
+   desktop = "";
+   download = "dl";
+   documents = "doc";
+   music = "doc/mzk";
+   pictures = "pix";
+   publicShare = "pub";
+   templates = "tpl";
+   videos = "pix/vid";
   }; 
 }
