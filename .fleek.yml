@@ -34,8 +34,6 @@ packages:
     - gnomeExtensions.screen-rotate
     - gnomeExtensions.clipboard-indicator
     - noisetorch
-    - jetbrains.idea-ultimate
-    - android-studio
     - android-tools
     - bundletool
     - btop
@@ -46,7 +44,6 @@ paths:
 programs:
     - dircolors
     - zsh.oh-my-zsh
-      #- firefox
 shell: zsh
 systems:
     - arch: x86_64
