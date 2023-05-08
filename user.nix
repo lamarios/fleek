@@ -27,7 +27,7 @@ in {
   programs.firefox = {
     package = {
       default = (nixGLWrap pkgs.firefox);
-    }
+    };
     profiles.paul = {
       search = {
         default = "DuckDuckGo";
