@@ -13,13 +13,13 @@
   xdg.userDirs = {
    enable = true;
    createDirectories = false;
-   desktop = "";
-   download = "dl";
-   documents = "doc";
-   music = "doc/mzk";
-   pictures = "pix";
-   publicShare = "pub";
-   templates = "tpl";
-   videos = "pix/vid";
+   desktop = "''$HOME";
+   download = "''$HOME/dl";
+   documents = "''$HOME/doc";
+   music = "''$HOME/doc/mzk";
+   pictures = "''$HOME/pix";
+   publicShare = "''$HOME/pub";
+   templates = "''$HOME/tpl";
+   videos = "''$HOME/pix/vid";
   }; 
 }
