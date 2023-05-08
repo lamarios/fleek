@@ -35,7 +35,6 @@ packages:
     - gnomeExtensions.clipboard-indicator
     - noisetorch
     - jetbrains.idea-ultimate
-    - postman
     - android-studio
     - android-tools
     - bundletool
