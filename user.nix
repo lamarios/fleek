@@ -7,7 +7,7 @@ let
     ln -s ${pkg}/* $out
     rm $out/bin
     mkdir $out/bin
-    for bin in ${pkg}/bin/*; do
+    for bin in ${pkg}/*; do
      wrapped_bin=$out/bin/$(basename $bin)
      echo "exec ${lib.getExe nixgl.auto.nixGLDefault} $bin \"\$@\"" > $wrapped_bin
      chmod +x $wrapped_bin
@@ -25,9 +25,7 @@ in {
   };
 
   programs.firefox = {
-    package = {
-      default = (nixGLWrap pkgs.firefox);
-    };
+    package = nixGLWrap pkgs.firefox;
     profiles.paul = {
       search = {
         default = "DuckDuckGo";
