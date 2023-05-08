@@ -8,6 +8,19 @@
   programs.zsh.sessionVariables = {
    ZSH_DISABLE_COMPFIX="true";
   };
+
+  programs.firefox = {
+    profiles.paul = {
+      search = {
+        default = "DuckDuckGo";
+        force = true;
+      };
+      settings = {
+         "identity.sync.tokenserver.uri" = "https://ff-sync.ftpix.com/1.0/sync/1.5";
+      };
+    };
+
+  };
   
 
   xdg.userDirs = {

@@ -9,6 +9,7 @@
 
   # User specified programs 
     programs.dircolors.enable = true; 
-    programs.zsh.oh-my-zsh.enable = true;
+    programs.zsh.oh-my-zsh.enable = true; 
+    programs.firefox.enable = true;
 
 }
