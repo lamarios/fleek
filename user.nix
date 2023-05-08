@@ -25,7 +25,7 @@ in {
   };
 
   programs.firefox = {
-    package = (nixGLWrap pkgs.firefox).override { 
+    package = nixGLWrap pkgs.firefox.override { 
     cfg = {
         # Gnome shell native connector
         enableGnomeExtensions = true;
