@@ -25,7 +25,7 @@ in {
   };
 
   programs.firefox = {
-    package = (nixGLWrap pkgs.firefox).override {};
+    package = (nixGLWrap pkgs.firefox).override = {};
     profiles.paul = {
       search = {
         default = "DuckDuckGo";
