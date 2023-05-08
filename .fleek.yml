@@ -46,7 +46,7 @@ paths:
 programs:
     - dircolors
     - zsh.oh-my-zsh
-    - firefox
+      #- firefox
 shell: zsh
 systems:
     - arch: x86_64
