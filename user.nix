@@ -19,7 +19,6 @@ in {
   # home manager options available here: https://nix-community.github.io/home-manager/options.html
   
   home.packages = [
-    (nixGLWrap pkgs.postman)
   ];
    
   programs.zsh.enableAutosuggestions=true;
