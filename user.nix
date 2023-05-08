@@ -1,4 +1,19 @@
-{ pkgs, misc, config, ... }: {
+{ pkgs, misc, config, lib, ... }:
+let
+  # ...
+  nixgl = import <nixgl> {} ;
+  nixGLWrap = pkg: pkgs.runCommand "${pkg.name}-nixgl-wrapper" {} ''
+    mkdir $out
+    ln -s ${pkg}/* $out
+    rm $out/bin
+    mkdir $out/bin
+    for bin in ${pkg}/bin/*; do
+     wrapped_bin=$out/bin/$(basename $bin)
+     echo "exec ${lib.getExe nixgl.auto.nixGLDefault} $bin \"\$@\"" > $wrapped_bin
+     chmod +x $wrapped_bin
+    done
+  '';
+in {
   # This file will never be modified by fleek
   # configs mentioned here must be listed in ~/fleek.yml #programs array or you will get errors
   # home manager options available here: https://nix-community.github.io/home-manager/options.html
