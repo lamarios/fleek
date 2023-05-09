@@ -38,6 +38,7 @@ packages:
     - bundletool
     - btop
     - nodejs-16_x
+    - gnomeExtensions.hide-top-bar
 paths:
     - $HOME/bin
     - $HOME/.local/bin
