@@ -42,7 +42,6 @@
     pkgs.bundletool
     pkgs.btop
     pkgs.nodejs-16_x
-    pkgs.gnomeExtensions.hide-top-bar
     # Fleek Bling
     pkgs.git
     pkgs.htop
