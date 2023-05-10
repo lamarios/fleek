@@ -39,7 +39,7 @@ in {
       window-margin=5;
     };
     
-    "com/ftpix/transparentbar/"={
+    "com/ftpix/transparentbar"={
       transparency=50;
       dark-full-screen=false;
     };
