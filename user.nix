@@ -31,7 +31,7 @@ in {
   # Going to store extension settings here are some are split between ublue and fleek
   dconf.settings = {
     "org/gnome/shell"={
-      enabled-extensions=["appindicatorsupport@rgcjonas.gmail.com" "transparent-top-bar@ftpix.com" "tailscale-status@maxgallup.github.com" "gTile@vibou" "clipboard-indicator@tudmotu.com" "ideapad-controls@azzamalsharafi.gmail.com" "screen-rotate@shyzus.github.io" "power-profile-switcher@eliapasquali.github.io"];
+      enabled-extensions=["appindicatorsupport@rgcjonas.gmail.com" "transparent-top-bar@ftpix.com" "tailscale-status@maxgallup.github.com" "gTile@vibou" "clipboard-indicator@tudmotu.com"];
     };
     
     "org/gnome/shell/extensions/gtile"={
