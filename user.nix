@@ -34,7 +34,7 @@ in {
       enabled-extensions=["appindicatorsupport@rgcjonas.gmail.com" "transparent-top-bar@ftpix.com" "tailscale-status@maxgallup.github.com" "gTile@vibou" "clipboard-indicator@tudmotu.com"];
     };
     
-    "/org/gnome/shell/extensions/gtile/"={
+    "/org/gnome/shell/extensions/gtile"={
       grid-sizes="4x2";
       window-margin=5;
     };
