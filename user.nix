@@ -27,6 +27,20 @@ in {
    ZSH_DISABLE_COMPFIX="true";
   };
 
+
+  # Going to store extension settings here are some are split between ublue and fleek
+  dconf.settings = {
+    "org/gnome/shell"={
+      enabled-extensions=[ "appindicatorsupport@rgcjonas.gmail.com", "transparent-top-bar@ftpix.com", "tailscale-status@maxgallup.github.com", "gTile@vibou", "clipboard-indicator@tudmotu.com"];
+    };
+    
+    "/org/gnome/shell/extensions/gtile/"={
+      grid-sizes="4x2";
+      window-margin=5;
+    };
+   
+  };
+
 #  programs.firefox = {
 #    package = nixGLWrap pkgs.firefox-unwrapped;
 #    profiles.paul = {
