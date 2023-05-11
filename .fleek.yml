@@ -38,7 +38,6 @@ packages:
     - bundletool
     - btop
     - nodejs-16_x
-    - gnomeExtensions.hide-panel-light-version-without-hot-corner
 paths:
     - $HOME/bin
     - $HOME/.local/bin
