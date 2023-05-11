@@ -36,7 +36,7 @@ in {
     
     "org/gnome/shell/extensions/gtile"={
       grid-sizes="4x2";
-      window-margin=5;
+      window-margin=10;
     };
     
     "com/ftpix/transparentbar"={
