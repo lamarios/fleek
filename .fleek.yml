@@ -38,6 +38,7 @@ packages:
     - bundletool
     - btop
     - nodejs-16_x
+    - kubie
 paths:
     - $HOME/bin
     - $HOME/.local/bin

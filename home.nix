@@ -42,6 +42,7 @@
     pkgs.bundletool
     pkgs.btop
     pkgs.nodejs-16_x
+    pkgs.kubie
     # Fleek Bling
     pkgs.git
     pkgs.htop
