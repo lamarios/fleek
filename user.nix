@@ -40,7 +40,7 @@ in {
     };
     
     "com/ftpix/transparentbar"={
-      transparency=50;
+      transparency=0;
       dark-full-screen=false;
     };
    
