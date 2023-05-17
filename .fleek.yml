@@ -42,6 +42,7 @@ packages:
 paths:
     - $HOME/bin
     - $HOME/.local/bin
+    - $HOME/.npm-packages/bin
 programs:
     - dircolors
     - zsh.oh-my-zsh
