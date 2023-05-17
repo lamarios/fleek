@@ -25,7 +25,7 @@ in {
 
   programs.zsh.sessionVariables = {
    ZSH_DISABLE_COMPFIX="true";
-   NODE_PATH="$HOME/.npm-packages/lib/node_modules"
+   NODE_PATH="$HOME/.npm-packages/lib/node_modules";
   };
 
 
