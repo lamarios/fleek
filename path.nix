@@ -3,6 +3,6 @@
  home.sessionPath = [ 
     "$HOME/bin"
     "$HOME/.local/bin"
-    "$HOME/.npm-packages/bin"
+    "$HOME/.npm-packages/bin/"
  ];
 }
