@@ -43,6 +43,7 @@
     pkgs.btop
     pkgs.nodejs-16_x
     pkgs.kubie
+    pkgs.libsForQt5.kwin-tiling
     # Fleek Bling
     pkgs.git
     pkgs.htop
