@@ -39,7 +39,6 @@ packages:
     - btop
     - nodejs-16_x
     - kubie
-    - libsForQt5.kwin-tiling
 paths:
     - $HOME/bin
     - $HOME/.local/bin
