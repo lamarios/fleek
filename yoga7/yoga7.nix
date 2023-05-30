@@ -8,8 +8,8 @@
             graph = "log --decorate --oneline --graph";
             add-nowhitespace = "!git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -";
         };
-        userName = "gz";
-        userEmail = "paul@fauchon.dev";
+        userName = "xendit";
+        userEmail = "paulfauchon@xendit.co";
         extraConfig = {
             feature.manyFiles = true;
             init.defaultBranch = "main";
