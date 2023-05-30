@@ -43,6 +43,7 @@
     pkgs.btop
     pkgs.nodejs-16_x
     pkgs.kubie
+    pkgs.postman
     # Fleek Bling
     pkgs.git
     pkgs.htop
