@@ -60,6 +60,10 @@ systems:
       hostname: office-pc
       os: linux
       username: gz
+    - arch: x86_64
+      hostname: yoga7
+      os: linux
+      username: logit
 unfree: true
 users:
     - email: paulfauchon@xendit.co
@@ -72,3 +76,8 @@ users:
       ssh_private_key_file: ~/.ssh/id_rsa
       ssh_public_key_file: ~/.ssh/id_rsa.pub
       username: gz
+    - email: paul@logit.global
+      name: logit
+      ssh_private_key_file: ~/.ssh/id_rsa
+      ssh_public_key_file: ~/.ssh/id_rsa.pub
+      username: logit

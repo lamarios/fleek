@@ -1,6 +1,7 @@
 { pkgs, misc, ... }: {
-    home.username = "xendit";
-    home.homeDirectory = "/home/xendit";
+  # DO NOT EDIT: This file is managed by fleek. Manual changes will be overwritten.
+    home.username = "logit";
+    home.homeDirectory = "/home/logit";
     programs.git = {
         enable = true;
         aliases = {
@@ -8,8 +9,8 @@
             graph = "log --decorate --oneline --graph";
             add-nowhitespace = "!git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -";
         };
-        userName = "xendit";
-        userEmail = "paulfauchon@xendit.co";
+        userName = "logit";
+        userEmail = "paul@logit.global";
         extraConfig = {
             feature.manyFiles = true;
             init.defaultBranch = "main";
